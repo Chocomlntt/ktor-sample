@@ -1,10 +1,21 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Kotlin
+.kotlin/
+
 # Default ignored files
 /shelf/
-/.idea/workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Ignored default folder with query files
 /queries/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
